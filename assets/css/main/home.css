@@ -1,0 +1,50 @@
+.home{
+    height: 100vh;
+    display: grid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.home .content{
+    width: 100%;
+    
+}
+.home .content h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.home .content .color{
+    color: #fba70b;
+}
+.home .content p{
+  font-size: 1.30rem;
+  color: gray;
+  margin-bottom: 2rem;
+}
+
+.home .content .btn{
+    padding: .80rem 2rem;
+    background-color: #fba70b;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.home .image{
+   width: 100%;
+}
+
+.home .image img{
+    width: 100%;
+}
+
+@media (min-width: 920px) {
+    .home{
+        flex-direction: row-reverse;
+        
+    }
+    .home .content{
+        width:50%;
+    }
+}

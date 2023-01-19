@@ -1,0 +1,17 @@
+/*Global*/
+@import "global/global.css";
+
+/*header*/
+@import "header/header.css";
+
+/*Animation Scroll Js*/
+@import "animation/scroll.css";
+
+
+/*main*/
+@import "main/home.css";
+@import "main/about.css";
+@import "main/description.css";
+
+/*Footer*/
+@import "footer/footer.css";

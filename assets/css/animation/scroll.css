@@ -1,0 +1,10 @@
+.js-scroll{
+    opacity: 0;
+    transform: translateY(-100px);
+}
+
+.js-scroll.active{
+   opacity: 1;
+   transform: translateY(0);
+   transition-duration: 3s;
+}
